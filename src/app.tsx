@@ -46,6 +46,22 @@ export function App() {
 							<code>variant="destructive"</code>
 						</div>
 					</div>
+					<div className="flex flex-col border border-zinc-700 rounded overflow-hidden">
+						<div className="flex items-center justify-center h-40 border-b border-blue-600/10 bg-gray-950">
+							<Button
+								type="button"
+								className="bg-lime-400 text-lime-950 hover:bg-lime-500"
+							>
+								Button
+							</Button>
+						</div>
+						<div className="flex flex-col p-3">
+							<strong>Custom</strong>
+							<code>
+								className="bg-lime-400 text-lime-950 hover:bg-lime-500"
+							</code>
+						</div>
+					</div>
 				</div>
 			</main>
 		</div>
